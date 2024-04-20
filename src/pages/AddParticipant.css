@@ -1,0 +1,81 @@
+.page-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar {
+    width: 100%; 
+}
+
+.content-container {
+    width: 70%; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+
+
+.form-container {
+    width: 800px;
+    margin: 0 auto; 
+   
+}
+
+.form-container h2 {
+    text-align: center; 
+}
+
+.form-group {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 15px; 
+    width:600px;
+}
+
+.input-field {
+    flex: 1; /* Fill remaining space */
+}
+
+input[type="text"]{
+    padding:8px;
+    border:none !important;
+    border-radius: 5px;
+    margin-right: 0 !important;
+}
+
+.form-group label {
+    width: 250px; 
+    text-align: left; 
+    margin-right: 10px; 
+}
+
+.form-container .MuiTextField-root {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none !important;
+    width: 100%;
+    max-width: 300px;
+}
+
+.button-container {
+    text-align: center; 
+    margin-top: 20px; 
+    align-items: center;
+}
+.save{
+    color:white;
+    background-color: blue;
+    margin-right: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+.cancel{
+    color:white;
+    background-color: blue;
+    margin-right: 10px;
+    padding: 5px 5px 5px 5px;
+}
